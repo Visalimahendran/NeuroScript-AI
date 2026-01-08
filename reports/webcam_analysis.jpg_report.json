@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-08T11:35:29",
+  "assessment": {
+    "prediction": "Normal",
+    "confidence": 1.0,
+    "risk_level": "Low",
+    "risk_score": 19.395701449673744,
+    "recommendation": {
+      "immediate": [
+        "No immediate action needed"
+      ],
+      "short_term": [
+        "Maintain healthy writing habits"
+      ],
+      "long_term": [
+        "Regular mental health check-ups"
+      ]
+    },
+    "detailed_analysis": {
+      "stroke_characteristics": {
+        "tremor_index": 0.260621367514149,
+        "pressure_consistency": 0.9197309469546419,
+        "slant_stability": 0.7921222290041748,
+        "abnormality_score": 0.10275254565270343
+      },
+      "spatial_properties": {
+        "size_variation": 0.2972715957065435,
+        "spacing_regularity": 0.9438132212732667,
+        "alignment_deviation": 0.1146262964208318,
+        "abnormality_score": 0.1995653088746086
+      },
+      "temporal_properties": {
+        "speed_consistency": 0.891278062048538,
+        "pause_pattern": "Regular",
+        "stroke_fluency": "Smooth",
+        "abnormality_score": 0.010872193795146201
+      }
+    }
+  },
+  "model_info": {
+    "type": "HybridMentalHealthModel",
+    "device": "cpu"
+  }
+}
