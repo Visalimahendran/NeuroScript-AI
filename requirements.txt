@@ -1,4 +1,4 @@
-# Core
+# Core numerical stack
 numpy==1.26.4
 pandas==2.2.2
 ml-dtypes==0.3.2
@@ -7,14 +7,14 @@ ml-dtypes==0.3.2
 tensorflow==2.16.1
 keras==3.3.3
 
-# Image & video
-opencv-python==4.12.0.88
-opencv-contrib-python==4.12.0.88
+# Image processing (NumPy 1.x compatible)
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
 pillow==10.4.0
 imageio==2.37.2
 
 # Visualization
-matplotlib==3.10.8
+matplotlib==3.8.4
 
 # UI
 streamlit==1.52.2
