@@ -1,19 +1,19 @@
 # Core numerical stack
 numpy==1.26.4
 pandas==2.2.2
-ml-dtypes==0.3.2
 
 # Deep Learning
 tensorflow==2.16.1
 keras==3.3.3
+ml-dtypes==0.3.2
 
-# Image processing (HEADLESS OpenCV — CRITICAL)
-opencv-python-headless==4.8.1.78
+# Image handling (no OpenCV)
 pillow==10.4.0
 imageio==2.37.2
 
 # Visualization
 matplotlib==3.8.4
+plotly==5.24.1
 
 # UI
 streamlit==1.52.2
