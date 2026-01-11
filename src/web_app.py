@@ -17,6 +17,10 @@ import queue
 import os
 import json
 from datetime import datetime
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+model_path = BASE_DIR / "saved_models" / "best_model.pth"
 
 # Get the root folder of your project
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
