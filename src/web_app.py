@@ -19,12 +19,7 @@ import os
 import json
 from datetime import datetime
 from pathlib import Path
-try:
-    import cv2
-except Exception as e:
-    import streamlit as st
-    st.error(f"OpenCV failed to load: {e}")
-    st.stop()
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 model_path = BASE_DIR / "saved_models" / "best_model.pth"
