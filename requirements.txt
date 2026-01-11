@@ -7,9 +7,8 @@ ml-dtypes==0.3.2
 tensorflow==2.16.1
 keras==3.3.3
 
-# Image processing (NumPy 1.x compatible)
-opencv-python==4.8.1.78
-opencv-contrib-python==4.8.1.78
+# Image processing (ONLY ONE OpenCV)
+opencv-python==4.10.0.84
 pillow==10.4.0
 imageio==2.37.2
 
