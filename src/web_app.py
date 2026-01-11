@@ -3,7 +3,8 @@ from unittest import result
 from matplotlib import image
 import streamlit as st
 import numpy as np
-import cv2
+from PIL import Image
+import numpy as np
 import torch
 from PIL import Image
 import plotly.graph_objects as go
